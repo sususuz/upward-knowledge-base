@@ -1,0 +1,35 @@
+# WorkBuddy internal files
+.workbuddy/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Python venv
+*.venv/
+
+# Excel temp files (opened by user)
+~$*.xlsx
+~$*.xls
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Intermediate test outputs (keep only final v8)
+upward-knowledge-base/test-output/test_cases_v*.xlsx
+upward-knowledge-base/test-output/test_cases_v*_data.json
+upward-knowledge-base/test-output/generate_*.py
+upward-knowledge-base/test-output/reclassify_*.py
+upward-knowledge-base/test-output/generate_from_json.py
+upward-knowledge-base/test-output/write_json_data.py
